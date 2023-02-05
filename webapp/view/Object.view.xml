@@ -14,15 +14,7 @@
 		busyIndicatorDelay="{objectView>/delay}">
 
 		<semantic:content>
-			<ObjectHeader
-				id="objectHeader"
-				title="{Fruit}"
-				number="{
-							path: 'Qty',
-							formatter: '.formatter.numberUnit'
-				}"
-				numberUnit="{Uom}">
-			</ObjectHeader>
+
  		</semantic:content>
 
 		<semantic:sendEmailAction>
